@@ -24,7 +24,7 @@ public class User implements Serializable {
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Long id;   
-	
+	// ceci est est test de git
 	private String firstName; 
 	
 	private String lastName;
@@ -32,6 +32,7 @@ public class User implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	
+	// modification2
 	@Enumerated(EnumType.STRING)
 	Role role; 
 	
